@@ -4,7 +4,6 @@ import {
   SectionBigHeading,
   SectionSubheading,
   ContentContainer,
-  Card,
 } from "~/components";
 
 export const StyledContainer = styled(({ height, ...props }) => (

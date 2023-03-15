@@ -7,7 +7,19 @@ import {
   StyledImageContainer,
 } from "./elements";
 
-export const Agency = ({ image, title, description, ...props }) => {
+import { CardList } from "../../components/CardList/CardList";
+import { StyledCardContainer } from "../../components/Containers/CardContainer/elements";
+
+export const Agency = ({
+  image,
+  title,
+  description,
+  pTitle,
+  cardDescription,
+  iconImg,
+  cardItems,
+  ...props
+}) => {
   return (
     <StyledContainer {...props}>
       <StyledTextContainer>
@@ -23,6 +35,9 @@ export const Agency = ({ image, title, description, ...props }) => {
             height={image.height}
           />
         </StyledImageContainer>
+        <StyledCardContainer>
+          <CardList cardItems={cardItems} />
+        </StyledCardContainer>
       </StyledContentContainer>
     </StyledContainer>
   );
