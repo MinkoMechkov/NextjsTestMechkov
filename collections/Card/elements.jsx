@@ -5,14 +5,18 @@ import { SectionParagraph, SectionInnerHeading } from "~/components";
 export const StyledInnerTitle = styled((props) => (
   <SectionInnerHeading {...props} />
 ))`
+  font-size: 1.2rem;
   font-weight: 700;
-  margin: 0.2rem;
+  margin: 0;
 `;
 
 export const StyledParagraph = styled((props) => (
   <SectionParagraph {...props} />
 ))`
   margin: 0;
+  p {
+    margin: 5px 0;
+  }
 `;
 
 export const StyledIconContainer = styled(({ ...props }) => <div {...props} />)`

@@ -23,8 +23,12 @@ const cardContent = [
   {
     id: 1,
     title: "Brief",
-    description:
-      "Complete brief writing or simple guidance on what to include, we've got you covered",
+    description: (
+      <p>
+        Complete <b>brief writing or simple guidance </b>on what to include,
+        we've got you covered.
+      </p>
+    ),
     iconImg: {
       src: "/edit-tools.ico",
       alt: "",
@@ -36,8 +40,12 @@ const cardContent = [
   {
     id: 2,
     title: "Search",
-    description:
-      "In-depth agency search covering; criteria matching, door, knocking and due-dilligence vetting.",
+    description: (
+      <p>
+        In-depth agency search covering; <b>criteria matching</b>, door,
+        knocking and due-dilligence vetting.
+      </p>
+    ),
     iconImg: {
       src: "/meeting.ico",
       alt: "",
@@ -49,8 +57,12 @@ const cardContent = [
   {
     id: 3,
     title: "Pitch",
-    description:
-      "Comprehensive pitch management, including comms, diary management and pitch hosting.",
+    description: (
+      <p>
+        Comprehensive <b>pitch management</b>, including comms, diary management
+        and pitch hosting.
+      </p>
+    ),
     iconImg: {
       src: "/business.ico",
       alt: "",
